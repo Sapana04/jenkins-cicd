@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello DevOps CI/CD vergion 2 Running 🚀"
+    return "Hello use poll scm 2 Running 🚀"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
